@@ -8,7 +8,6 @@ fun main() {
             length
         } ?: 0
     }
-
     println(getNullableLength(null))
     println(getNullableLength(""))
     println(getNullableLength("some string with Kotlin"))
